@@ -6,6 +6,10 @@
  *     public int length() {}
  * }
  */
+
+//can be improved by taking one step at a time
+//finding the mountain then searching in first half and other half respectively returning the lowest index of target
+
  
 class Solution {
     public int findInMountainArray(int target, MountainArray mountainArr) {
